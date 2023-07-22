@@ -1,0 +1,17 @@
+app:
+    env: "local"
+    name: "notif-producer"
+    host: "localhost"
+    port: 8080
+rabbitmq:
+    host: "localhost"
+    port: 5672
+    usr: "guest"
+    pw: "guest"
+    topicNotif: "notification"
+mysql:
+    host: "localhost"
+    port: 3306
+    usr: "root"
+    pw: ""
+    db: "mnhjddn"

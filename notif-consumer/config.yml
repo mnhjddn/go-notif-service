@@ -1,0 +1,23 @@
+app:
+    env: "local"
+    name: "notif-consumer"
+    host: "localhost"
+    port: 9090
+rabbitmq:
+    host: "localhost"
+    port: 5672
+    usr: "guest"
+    pw: "guest"
+    topicNotif: "notification"
+mysql:
+    host: "localhost"
+    port: 3306
+    usr: "root"
+    pw: ""
+    db: "mnhjddn"
+email:
+    host: "smtp.gmail.com"
+    port: 587
+    sender: "Fulan <fulan@example.com>"
+    usr: "fulan@example.com"
+    pw: "password"
